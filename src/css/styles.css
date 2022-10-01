@@ -1,0 +1,107 @@
+.body {
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0;
+}
+
+a {
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  height: 40px;
+  border: 1px solid white;
+  margin-right: 2px;
+  border-radius: 5px;
+  box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  transition: box-shadow 1s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.container {
+  background-color: rgb(0, 3, 8);
+  margin: 0;
+}
+button {
+  border-radius: 5px;
+}
+
+.gallery {
+  background-color: #e2e0dc;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom left, #010000 40%, #ffc39e 100%);
+}
+
+.photo-card {
+  width: 320px;
+  transition: box-shadow 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  margin: 5px;
+}
+.photo-card:hover,
+.photo-card:focus {
+  box-shadow: 0 20px 40px -14px rgb(0 0 0 / 25%);
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+.info-item:last-child {
+  margin-right: 0;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.is-hidden {
+  display: none;
+}
+
+button > .spinner.is-hidden {
+  display: none;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-light {
+  box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 2px 15px 0px rgba(0, 0, 0, 0.75);
+  transition: box-shadow 1s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+}
+
+.btn-light:hover,
+.btn-light:focus {
+  --bs-btn-focus-shadow-rgb: 0;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 20px 40px -14px rgb(0 0 0 / 25%);
+}
